@@ -1,0 +1,52 @@
+body {
+    background: #0f0f0f;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .terminal {
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ff00;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .prompt {
+    margin: 0.5rem 0;
+  }
+  
+  .cmd {
+    animation: blink 1s step-end infinite;
+  }
+  
+  .output {
+    color: #ff5555;
+    margin: 0.5rem 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: #00ff00;
+    color: #0f0f0f;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background: #00cc00;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
